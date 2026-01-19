@@ -4,4 +4,4 @@ const count = document.getElementById("wordCount");
 text.addEventListener('input',()=>{
 
 	count.textContent = text.value.length;
-})
+});
